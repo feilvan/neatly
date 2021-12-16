@@ -33,8 +33,8 @@ Neatly is a one line Firefox theme based on [Waterfall](https://github.com/cramb
 
 ## 🗒️ Credits
 
-- Andreas Grafen (original cascade theme) (https://andreas.grafen.info)
-- Clément Rambaud (mods on the original file for a mouse-centered use)
-- niivu (the inspiration to make this theme)
-- Paranoid Android (wallpaper)
+- [Andreas Grafen](https://andreas.grafen.info) (original cascade theme)
+- [Clément Rambaud](https://github.com/crambaud) (waterfall theme)
+- [niivu](https://www.deviantart.com/niivu) (the inspiration to make this theme)
+- [Paranoid Android](https://paranoidandroid.co/wallpapers) (wallpaper)
 - [nightTab](https://github.com/zombieFox/nightTab) (new tab page)
