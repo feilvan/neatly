@@ -28,7 +28,8 @@ Neatly is a one line Firefox theme based on [Waterfall](https://github.com/cramb
 
 ## ⚠️ Note
 
-Feel free to customize but my apologies for cluttered codes.
+- Not tested on Mac
+- Feel free to customize but my apologies for cluttered codes.
 
 ## 🗒️ Credits
 
