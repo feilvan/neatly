@@ -31,15 +31,15 @@
 /* Feel free to tweak the following
  * config settingsto your own liking. */
 
-:root {
+ :root {
   /*---+---+---+---+---+---+---+
      | C | O | L | O | U | R | S |
      +---+---+---+---+---+---+---*/
 
   /* Comment the color theme you don't want to use */
 
-  --window-colour: #202020;
-  --secondary-colour: #333;
+  --window-colour: #141b1e;
+  --secondary-colour: #8aadf4;
   --inverted-colour: #fafafc;
 
   /* Dark Theme Colors
@@ -228,7 +228,7 @@ window,
 
 /* Show Window Control Button */
 .titlebar-buttonbox-container {
-  display: -moz-inline-box !important;
+  visibility: collapse !important;
 }
 /* .titlebar-buttonbox-container {visibility: collapse !important;} */
 
@@ -353,6 +353,20 @@ toolbarbutton#forward-button.toolbarbutton-1.chromeclass-toolbar-additional {
     var(--container-tabs-indicator-margin) !important;
 
   border-radius: var(--tab-border-radius) !important;
+}
+
+.tab-background {
+  border-radius: 999px !important;
+}
+
+.tab-content {
+  padding: 0 12px 0 5.5px !important;
+}
+
+:root:not([privatebrowsingmode="temporary"], [firefoxviewhidden]) :is(toolbarbutton, toolbarpaletteitem) + #tabbrowser-tabs, :root[privatebrowsingmode="temporary"]:not([firefoxviewhidden]) :is(toolbarbutton:not(#firefox-view-button), toolbarpaletteitem:not(#wrapper-firefox-view-button)) + #tabbrowser-tabs {
+  border-inline-start: 0 !important;
+  padding-inline-start: 0 !important;
+  margin-inline-start: 0 !important;
 }
 
 /* show favicon when media is playing but tab is hovered */
@@ -562,7 +576,7 @@ See the above repository for updates as well as full license text. */
   transition: transform 135ms linear var(--uc-autohide-toolbar-delay) !important;
   z-index: 1;
   /* The following properties should allow the themes with trasparent toolbars to work */
-  background-color: transparent !important;
+  /* background-color: transparent !important; */
   background-repeat: no-repeat, no-repeat, var(--lwt-background-tiling);
   --uc-bg-y: calc(
     -2 * (
@@ -608,3 +622,26 @@ See the above repository for updates as well as full license text. */
 	margin-bottom: 0px !important;
   }
   */
+
+#alltabs-button {
+  list-style-image: url(chrome://global/skin/icons/arrow-down.svg);
+  display: none;
+}
+
+/* [START] Frankenstein */
+
+.tabbrowser-tab:is([selected], [multiselected]):-moz-lwtheme {
+  color: #24273a !important;
+}
+
+.tab-throbber:not([pinned]), .tab-icon-pending:not([pinned]), .tab-icon-image:not([pinned]), .tab-sharing-icon-overlay:not([pinned]), .tab-icon-overlay:not([pinned]) {
+  background: #141b1e !important;
+  padding: 6px !important;
+  border-radius: 99px !important;
+}
+
+#navigator-toolbox:-moz-lwtheme {
+  padding: 6px 0;
+}
+
+/* [END] Frankenstein */
