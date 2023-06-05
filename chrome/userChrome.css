@@ -38,6 +38,8 @@
 
 /* [START] Stuff that I add */
 
+/* @import 'integrations/tabcenter-reborn/cascade-tcr.css'; */
+/* @import 'includes/custom-tcr-hide-titlebar.css'; */
 @import "includes/custom-autohide-bookmarks-toolbar.css";
 @import "includes/custom-selected-tab-pill.css";
 /* @import 'includes/custom-selected-tab-glowing-line.css'; */
@@ -45,5 +47,6 @@
 @import "includes/custom-hide-all-tabs-button.css";
 @import "includes/custom-cleaner urlbar.css";
 @import "includes/custom-fix-urlbar-breakout-extend.css";
+@import "includes/custom-hide-disabled-nav.css";
 
 /* [END] Stuff that I add */

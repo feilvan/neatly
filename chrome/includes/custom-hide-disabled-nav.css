@@ -1,0 +1,17 @@
+/* hide disabled nav */
+:root:not([customizing]) .toolbarbutton-1[disabled="true"] {
+  display: none;
+}
+
+/* remove padding on the left of back button */
+#nav-bar-customization-target > :is(toolbarbutton, toolbaritem):first-child,
+#nav-bar-customization-target
+  > toolbarpaletteitem:first-child
+  > :is(toolbarbutton, toolbaritem) {
+  padding-inline-start: 0 !important;
+}
+
+/* add padding in navbar */
+toolbar#nav-bar {
+  padding-inline-start: 8px !important;
+}
