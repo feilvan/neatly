@@ -26,24 +26,24 @@
 
 *==============================================================================================*/
 
+@import "includes/cascade-config-mouse.css";
+@import "includes/cascade-colours.css";
 
+@import "includes/cascade-layout.css";
+@import "includes/cascade-responsive.css";
+@import "includes/cascade-floating-panel.css";
 
-@import 'includes/cascade-config-mouse.css';
-@import 'includes/cascade-colours.css';
-
-@import 'includes/cascade-layout.css';
-@import 'includes/cascade-responsive.css';
-@import 'includes/cascade-floating-panel.css';
-
-@import 'includes/cascade-nav-bar.css';
-@import 'includes/cascade-tabs.css';
+@import "includes/cascade-nav-bar.css";
+@import "includes/cascade-tabs.css";
 
 /* [START] Stuff that I add */
 
-@import 'includes/custom-autohide-bookmarks-toolbar.css';
-@import 'includes/custom-selected-tab-pill.css';
+@import "includes/custom-autohide-bookmarks-toolbar.css";
+@import "includes/custom-selected-tab-pill.css";
 /* @import 'includes/custom-selected-tab-glowing-line.css'; */
-@import 'includes/custom-toolbox-height.css';
-@import 'includes/custom-hide-all-tabs-button.css';
+@import "includes/custom-toolbox-height.css";
+@import "includes/custom-hide-all-tabs-button.css";
+@import "includes/custom-cleaner urlbar.css";
+@import "includes/custom-fix-urlbar-breakout-extend.css";
 
 /* [END] Stuff that I add */
