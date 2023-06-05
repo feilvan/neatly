@@ -4,13 +4,22 @@ This is a fork of **[Cascade](https://github.com/andreasgrafen/cascade)** with m
 
   ![Autohide toolbar](assets/custom-autohide-bookmarks-toolbar.webp)
 
-- Pill shape selected tab
+- Pill shape selected tab (default)
 
   ![Pill style](assets/custom-selected-tab-pill.png)
 
 - Glowing line selected tab
 
   ![Glowing line style](assets/custom-selected-tab-glowing-line.png)
+
+To change selected tab effect, look up this code in `userChrome.css`
+
+```css
+@import "includes/custom-selected-tab-pill.css";
+/* @import 'includes/custom-selected-tab-glowing-line.css'; */
+```
+
+Comment out the one you don't want, and uncomment the one you want. (or comment both if you don't want these style)
 
 ---
 
