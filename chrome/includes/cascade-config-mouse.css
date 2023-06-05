@@ -18,7 +18,7 @@
   /*  Top margin for the Page Action Buttons
    *  inside the URL Bar. This might need
    *  customisation depending on yout setup!
-   */ --uc-page-action-margin: 7px;
+   */ --uc-page-action-margin: 0px;
 
 }
 
@@ -44,7 +44,7 @@
  *  4 – toolbar on bottom
  */
 :root {
-  --uc-toolbar-position: 0;
+  --uc-toolbar-position: 4;
 }
 
 /*  Darken the Personal Toolbar by X amount
