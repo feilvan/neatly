@@ -4,6 +4,10 @@ This is a fork of **[Cascade](https://github.com/andreasgrafen/cascade)** with m
 
   ![Autohide toolbar](assets/custom-autohide-bookmarks-toolbar.webp)
 
+- Hide disabled navigation button
+
+  ![Hide disabled nav](assets/custom-hide-disabled-nav.webp)
+
 - Pill shape selected tab (default)
 
   ![Pill style](assets/custom-selected-tab-pill.png)
