@@ -2,25 +2,25 @@ This is a fork of **[Cascade](https://github.com/andreasgrafen/cascade)** with m
 
 - Autohide bookmarks toolbar
 
-  ![Autohide toolbar](assets/custom-autohide-bookmarks-toolbar.webp)
+  ![Autohide toolbar](assets/neatly-autohide-bookmarks-toolbar.webp)
 
 - Hide disabled navigation button
 
-  ![Hide disabled nav](assets/custom-hide-disabled-nav.webp)
+  ![Hide disabled nav](assets/neatly-hide-disabled-nav.webp)
 
 - Pill shape selected tab (default)
 
-  ![Pill style](assets/custom-selected-tab-pill.png)
+  ![Pill style](assets/neatly-selected-tab-pill.png)
 
 - Glowing line selected tab
 
-  ![Glowing line style](assets/custom-selected-tab-glowing-line.png)
+  ![Glowing line style](assets/neatly-selected-tab-glowing-line.png)
 
 To change selected tab effect, look up this code in `userChrome.css`
 
 ```css
-@import "includes/custom-selected-tab-pill.css";
-/* @import 'includes/custom-selected-tab-glowing-line.css'; */
+@import "includes/neatly-selected-tab-pill.css";
+/* @import 'includes/neatly-selected-tab-glowing-line.css'; */
 ```
 
 Comment out the one you don't want, and uncomment the one you want. (or comment both if you don't want these style)

@@ -5,7 +5,7 @@
   | █▄▄ | █▀█ | ▄▄█ | █▄▄ | █▀█ | █▄▀ | ██▄ |
   +-----+-----+-----+-----+-----+-----+-----+
 
-  Description:    Cascade is a minimalstic and keyboard centered custom theme removing a lot of the
+  Description:    Cascade is a minimalstic and keyboard centered neatly theme removing a lot of the
                   subjective clutter default Firefox comes with. This theme is highly inspired by the
                   stylistic choices of SimpleFox by Miguel Ávila. 🦊
                   https://github.com/migueravila/SimpleFox
@@ -38,15 +38,13 @@
 
 /* [START] Stuff that I add */
 
-/* @import 'integrations/tabcenter-reborn/cascade-tcr.css'; */
-/* @import 'includes/custom-tcr-hide-titlebar.css'; */
-@import "includes/custom-autohide-bookmarks-toolbar.css";
-@import "includes/custom-selected-tab-pill.css";
-/* @import 'includes/custom-selected-tab-glowing-line.css'; */
-@import "includes/custom-toolbox-height.css";
-@import "includes/custom-hide-all-tabs-button.css";
-@import "includes/custom-cleaner urlbar.css";
-@import "includes/custom-fix-urlbar-breakout-extend.css";
-@import "includes/custom-hide-disabled-nav.css";
+@import "includes/neatly-autohide-bookmarks-toolbar.css";
+@import "includes/neatly-selected-tab-pill.css";
+/* @import 'includes/neatly-selected-tab-glowing-line.css'; */
+@import "includes/neatly-toolbox-height.css";
+@import "includes/neatly-hide-all-tabs-button.css";
+@import "includes/neatly-cleaner urlbar.css";
+@import "includes/neatly-fix-urlbar-breakout-extend.css";
+@import "includes/neatly-hide-disabled-nav.css";
 
 /* [END] Stuff that I add */
