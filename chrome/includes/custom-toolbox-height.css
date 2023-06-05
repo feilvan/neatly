@@ -1,0 +1,7 @@
+#urlbar-container[breakout] {
+  min-height: 44px !important;
+}
+
+#urlbar[breakout] {
+  margin-top: 2px;
+}

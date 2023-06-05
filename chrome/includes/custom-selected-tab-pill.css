@@ -1,0 +1,40 @@
+/* border radius */
+.tab-background {
+  border-radius: 99px !important;
+}
+
+/* selected tab background color */
+#tabbrowser-tabs:not([movingtab]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab > .tab-stack > .tab-background[selected="true"]:-moz-lwtheme {
+  background: #8aadf4 !important;
+}
+
+/* label color */
+.tabbrowser-tab:is([selected], [multiselected]):-moz-lwtheme {
+  color: #24273a !important;
+}
+
+.tabbrowser-tab:not([selected], [multiselected]):-moz-lwtheme {
+  color: hsl(232, 23%, 75%) !important;
+}
+
+/* tab content padding */
+.tab-content {
+  padding: 0 12px 0 5.5px !important;
+}
+
+/* remove margin after icon image */
+.tab-throbber:not([pinned]), .tab-icon-pending:not([pinned]), .tab-icon-image:not([pinned]), .tab-sharing-icon-overlay:not([pinned]), .tab-icon-overlay:not([pinned]) {
+  margin-inline-end: 0px !important;
+}
+
+/* icon padding and margin */
+.tab-icon-stack {
+  border-radius: 99px !important;
+  padding: 6px !important;
+  margin-inline-end: 4px !important;
+}
+
+/* selected icon background */
+.tab-icon-stack[selected="true"] {
+  background: #1e2021 !important;
+}

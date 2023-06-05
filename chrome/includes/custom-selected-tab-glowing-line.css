@@ -1,0 +1,16 @@
+/* selected tab line above tab */
+.tab-background[selected="true"]::before {
+  content: '';
+  display: block;
+  border-top: 2px solid #8aadf4;
+  box-shadow: 0 1px 10px 1px #8aadf4;
+}
+
+/* label color */
+.tabbrowser-tab:is([selected], [multiselected]):-moz-lwtheme {
+  color: #8aadf4 !important;
+}
+
+.tabbrowser-tab:not([selected], [multiselected]):-moz-lwtheme {
+  color: hsl(232, 23%, 75%) !important;
+}
