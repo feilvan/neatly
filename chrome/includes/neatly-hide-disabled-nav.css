@@ -8,7 +8,7 @@
 #nav-bar-customization-target
   > toolbarpaletteitem:first-child
   > :is(toolbarbutton, toolbaritem) {
-  padding-inline-start: 0 !important;
+  padding-inline-start: 2px !important;
 }
 
 /* add padding in navbar */
