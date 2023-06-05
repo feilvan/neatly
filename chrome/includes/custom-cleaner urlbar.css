@@ -1,0 +1,14 @@
+/* remove bookmark button in urlbar */
+hbox#page-action-buttons {
+  display: none !important;
+}
+
+/* remove shield icon */
+box#tracking-protection-icon-container {
+  display: none !important;
+}
+
+/* remove lock icon */
+box#identity-box {
+  display: none !important;
+}
