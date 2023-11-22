@@ -1,3 +1,7 @@
+This fork is no longer maintained. One-liner layout is getting annoying overtime so I redo my `userchrome.css` from scratch and upload it here: https://github.com/feilvan/firefox-css/
+
+---
+
 This is a fork of **[Cascade](https://github.com/andreasgrafen/cascade)** with my own style and layout adjustment
 
 - Autohide bookmarks toolbar
